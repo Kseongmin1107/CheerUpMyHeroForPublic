@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>Unity.Services.CloudCode.GeneratedBindings</RootNamespace>
-    <ProjectGuid>{CA7099A2-5126-876A-7170-3410039F6513}</ProjectGuid>
+    <ProjectGuid>{BBCEEC97-8042-2D8B-9592-1845DC53D25B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Services.CloudCode.GeneratedBindings</AssemblyName>

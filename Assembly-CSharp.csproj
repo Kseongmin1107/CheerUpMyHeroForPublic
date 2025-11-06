@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6E426F2F-E8E2-8DB0-F0F4-63F9E190C1FB}</ProjectGuid>
+    <ProjectGuid>{DD63308B-8ED3-9203-0C64-720F805B8D93}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -138,7 +138,6 @@
     <Compile Include="Assets\Scripts\UI\BattleScene\SwipeArea\UISwipeArea.cs" />
     <Compile Include="Assets\ExcelImporter\Example\Scripts\Example.cs" />
     <Compile Include="Assets\Scripts\UI\BattleScene\UIJoyStickHandle.cs" />
-    <Compile Include="Assets\SPUM\Core\Script\Data\SpumAnimationClip.cs" />
     <Compile Include="Assets\Scripts\UI\BattleScene\UITest.cs" />
     <Compile Include="Assets\Scripts\UI\SelectCard(Old)\UIScrollCard.cs" />
     <Compile Include="Assets\Scripts\UI\MainScreen\Building\AdCooldownPopup.cs" />
@@ -156,12 +155,10 @@
     <Compile Include="Assets\Scripts\UI\Artifact\ArtifactUIPresenter.cs" />
     <Compile Include="Assets\Scripts\UI\Pause\UIExitPanel.cs" />
     <Compile Include="Assets\Scripts\UI\StageModifier\ChallengeModel.cs" />
-    <Compile Include="Assets\SPUM\Core\Script\Data\SPUM_ImprovedClassData.cs" />
     <Compile Include="Assets\Scripts\UI\MainScreen\DiplomacyPanel.cs" />
     <Compile Include="Assets\Scripts\DB\Data\Item\ItemData.cs" />
     <Compile Include="Assets\Scripts\UI\Artifact\UIArtifactUpMoney.cs" />
     <Compile Include="Assets\Scripts\DB\SO\SynergyEffectSO.cs" />
-    <Compile Include="Assets\SPUM\Core\Script\Data\SpritePos.cs" />
     <Compile Include="Assets\Scripts\DB\Data\Unit\PlayerData.cs" />
     <Compile Include="Assets\Scripts\UI\BattleScene\TopUI\UITimer.cs" />
     <Compile Include="Assets\Scripts\UI\UIAdvancedButton.cs" />
@@ -180,7 +177,6 @@
     <Compile Include="Assets\Scripts\UI\MainScreen\Building\BuildingSelectItem.cs" />
     <Compile Include="Assets\Scripts\UI\CardDeckSystem\DeckUnitSlot.cs" />
     <Compile Include="Assets\Scripts\DB\Data\MonoData.cs" />
-    <Compile Include="Assets\SPUM\Core\Script\Data\SPUM_AnimationData.cs" />
     <Compile Include="Assets\GlobalScripts\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\Animation\ActiveEye.cs" />
     <Compile Include="Assets\Scripts\UI\MainScreen\Building\Synergy\TileDataHandler.cs" />
@@ -197,12 +193,10 @@
     <Compile Include="Assets\Scripts\Enemy\EnemyHealerSplashUnitController.cs" />
     <Compile Include="Assets\ExcelImporter\Example\Scripts\Entity\MstItemEntity.cs" />
     <Compile Include="Assets\Scripts\DB\SO\MainStageSO.cs" />
-    <Compile Include="Assets\SPUM\Sample\Script\PlayerObj.cs" />
     <Compile Include="Assets\Scripts\Base\SFXSource.cs" />
     <Compile Include="Assets\Scripts\Manager\PlayerDataManager.cs" />
     <Compile Include="Assets\Scripts\UI\UnitCardSelect\UIUnitCardInScroll.cs" />
     <Compile Include="Assets\Scripts\Base\Character\BaseController.cs" />
-    <Compile Include="Assets\SPUM\Core\Script\Data\SpumPackage.cs" />
     <Compile Include="Assets\Scripts\UI\CardDeckSystem\UIPlayerStatPopup.cs" />
     <Compile Include="Assets\Scripts\UI\BattleScene\TopUI\UITimeBar.cs" />
     <Compile Include="Assets\Scripts\Base\Character\BaseCharacterHpBar.cs" />
@@ -229,7 +223,6 @@
     <Compile Include="Assets\Scripts\Base\Character\BaseHQ.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHQ\PlayerHQSkill.cs" />
     <Compile Include="Assets\Scripts\Base\BaseUI.cs" />
-    <Compile Include="Assets\SPUM\Core\Script\Data\PreviewMatchingElement.cs" />
     <Compile Include="Assets\Scripts\Scenes\BattleScene.cs" />
     <Compile Include="Assets\Scripts\UI\BattleScene\SwipeArea\UIActiveAfPanel.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHQ\HQSkill5.cs" />
@@ -254,7 +247,6 @@
     <Compile Include="Assets\Scripts\Enemy\EnemyMeleeSplashController.cs" />
     <Compile Include="Assets\Scripts\Manager\UIManager.cs" />
     <Compile Include="Assets\Scripts\Base\Character\BaseUnit.cs" />
-    <Compile Include="Assets\SPUM\Sample\Script\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\UI\BattleScene\SwipeArea\UIActiveAFSlot.cs" />
     <Compile Include="Assets\Scripts\CombatAmount\CombatAmount.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyUnit.cs" />
@@ -264,7 +256,6 @@
     <Compile Include="Assets\Scripts\Base\IBackButtonHandler.cs" />
     <Compile Include="Assets\Scripts\Manager\ArtifactManager.cs" />
     <Compile Include="Assets\Scripts\UI\BattleScene\UIJoyStick.cs" />
-    <Compile Include="Assets\SPUM\Core\Script\Data\SPUM_CustomStyleData.cs" />
     <Compile Include="Assets\Scripts\Manager\ObjectPoolManager.cs" />
     <Compile Include="Assets\Scripts\DB\SO\StageModifierSO.cs" />
     <Compile Include="Assets\Scripts\DB\Data\Unit\HeroData.cs" />
@@ -281,7 +272,6 @@
     <Compile Include="Assets\Scripts\UI\AudioSettingUI.cs" />
     <Compile Include="Assets\Scripts\Manager\InputManager.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHQ\HQSkill2.cs" />
-    <Compile Include="Assets\SPUM\Core\Script\Data\SPUM_Prefabs.cs" />
     <Compile Include="Assets\Scripts\UI\UnitCardSelect\UnitSelectBtnInUnitCard.cs" />
     <Compile Include="Assets\Scripts\UI\HeroCinematic\UIHeroCinematic.cs" />
     <Compile Include="Assets\Scripts\UI\Artifact\Active\UIRemoveAllAfPanel.cs" />
@@ -305,7 +295,6 @@
     <Compile Include="Assets\Scripts\UI\Pause\UISettingMenu.cs" />
     <Compile Include="Assets\Scripts\UI\CardDeckSystem\UICardSynergyIcon.cs" />
     <Compile Include="Assets\Scripts\Base\Framework\BasePoolable.cs" />
-    <Compile Include="Assets\SPUM\Core\Script\Data\SPUM_ImprovedStyleData.cs" />
     <Compile Include="Assets\Scripts\UI\CardDeckSystem\UIDeckDestinyPopup.cs" />
     <Compile Include="Assets\Scripts\Manager\AdManager.cs" />
     <Compile Include="Assets\Scripts\DB\Data\Item\ArmorData.cs" />
@@ -333,7 +322,6 @@
     <Compile Include="Assets\Scripts\Scenes\SceneLoader\SceneLoaderBattle.cs" />
     <Compile Include="Assets\Scripts\DB\DataBase.cs" />
     <Compile Include="Assets\Scripts\UI\BattleScene\UIRandomArtifactSlot.cs" />
-    <Compile Include="Assets\SPUM\Core\Script\Data\SPUM_MatchingList.cs" />
     <Compile Include="Assets\Scripts\UI\BattleScene\SwipeArea\UISwipeAreaVer2.cs" />
     <Compile Include="Assets\Scripts\DB\SO\ArtifactSO.cs" />
     <Compile Include="Assets\Scripts\DB\Data\Unit\BaseUnitData.cs" />
@@ -359,11 +347,9 @@
     <Compile Include="Assets\ZZSewoongTest\TestScripts\TestSceneSpawnUnitSlot.cs" />
     <Compile Include="Assets\ZZSewoongTest\TestScripts\TestTurretV2.cs" />
     <Compile Include="Assets\Scripts\UI\BattleScene\SwipeArea\UIPlayerUnitSpawnPanel.cs" />
-    <Compile Include="Assets\SPUM\Core\Script\Data\SpumTextureData.cs" />
     <Compile Include="Assets\Scripts\CombatAmount\HealAmount.cs" />
     <Compile Include="Assets\Scripts\UI\StageModifier\UIDestinyRoullete.cs" />
     <Compile Include="Assets\Scripts\UI\Artifact\UIArtifactEquipSlot.cs" />
-    <Compile Include="Assets\Fantasy UI\Samples\IconPreview.cs" />
     <Compile Include="Assets\Scripts\Base\Framework\ISceneResettable.cs" />
     <Compile Include="Assets\Scripts\Base\Character\BaseUnitController.cs" />
     <Compile Include="Assets\zzSeongminTest\None.cs" />
@@ -387,7 +373,6 @@
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\SPUM\ReadMe - 3.1.0.txt" />
     <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_SETTINGS.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR.cginc" />
@@ -405,7 +390,6 @@
     <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Texts\_Make your own text effect.txt" />
     <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_PASSES.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\Fantasy UI\Fonts\OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Material\SynergySplitter.shader" />
     <None Include="Assets\Material\SplitImage.shader" />
@@ -1596,55 +1580,55 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{CD64720A-56FC-9DA1-45F1-2E9F09240B99}</Project>
+      <Project>{0AB90E9E-CD4F-3FB4-D43C-D073665E3F5D}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="UniTask.Addressables.csproj">
-      <Project>{EB085CFE-AE15-303F-00D0-E3EFBC346C08}</Project>
+      <Project>{49DBD81D-A841-D070-3022-A8BBE6897073}</Project>
       <Name>UniTask.Addressables</Name>
     </ProjectReference>
     <ProjectReference Include="ToonyColorsPro.Demo.Editor.csproj">
-      <Project>{3547F56B-CC3B-F124-270D-2BDDD0BFB395}</Project>
+      <Project>{2C5E71F4-10D9-B395-C6D1-57DF394FC7AF}</Project>
       <Name>ToonyColorsPro.Demo.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="CFXRRuntime.csproj">
-      <Project>{3DE6AAD8-26F2-4682-325E-C4F9F29D0E03}</Project>
+      <Project>{AF74254E-B691-0CCE-E603-DD670C2C0248}</Project>
       <Name>CFXRRuntime</Name>
     </ProjectReference>
     <ProjectReference Include="UniTask.csproj">
-      <Project>{296DB32B-04C7-3C16-C590-A8A2F718BDC3}</Project>
+      <Project>{2AB569B7-E0A0-FB95-9C1D-C7099533BC21}</Project>
       <Name>UniTask</Name>
     </ProjectReference>
     <ProjectReference Include="CFXRDemo.csproj">
-      <Project>{52F472D8-6A45-F05A-BBE7-093E7D0BDC9F}</Project>
+      <Project>{342F7FFD-748A-8335-BC2A-2AFF81D600AD}</Project>
       <Name>CFXRDemo</Name>
     </ProjectReference>
     <ProjectReference Include="UniTask.TextMeshPro.csproj">
-      <Project>{C558F476-5238-5F47-519D-974D51DDF5C7}</Project>
+      <Project>{3164B1FF-EBA1-9AD2-80E3-28CB1D4E2F72}</Project>
       <Name>UniTask.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="UniTask.Linq.csproj">
-      <Project>{819DEA7D-9305-BAED-7958-404E7C3E5DA0}</Project>
+      <Project>{9A7198B5-498B-4D86-BF9A-E728FCD9C19B}</Project>
       <Name>UniTask.Linq</Name>
     </ProjectReference>
     <ProjectReference Include="CFXR.WelcomeScreen.csproj">
-      <Project>{D9D9969B-E2AC-8AC3-B1F7-81EF72F65176}</Project>
+      <Project>{755869B1-7465-51B8-E116-3EAEA4F96EEF}</Project>
       <Name>CFXR.WelcomeScreen</Name>
     </ProjectReference>
     <ProjectReference Include="KinoBloom.Runtime.csproj">
-      <Project>{E9E3037B-5D05-5177-D62A-ABF41EFCCFC6}</Project>
+      <Project>{112F91AD-2389-1027-28E0-43A4AA48C045}</Project>
       <Name>KinoBloom.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.CloudCode.GeneratedBindings.csproj">
-      <Project>{CA7099A2-5126-876A-7170-3410039F6513}</Project>
+      <Project>{BBCEEC97-8042-2D8B-9592-1845DC53D25B}</Project>
       <Name>Unity.Services.CloudCode.GeneratedBindings</Name>
     </ProjectReference>
     <ProjectReference Include="CFXREditor.csproj">
-      <Project>{383580E8-FABD-0E12-4F87-89169F8AF758}</Project>
+      <Project>{6421A782-D1EA-83F8-64AB-05D63E8AAA50}</Project>
       <Name>CFXREditor</Name>
     </ProjectReference>
     <ProjectReference Include="UniTask.DOTween.csproj">
-      <Project>{1F356C2B-5C7A-9355-1F90-A7D7FD240DCE}</Project>
+      <Project>{2B340AD9-2E70-F520-F561-D8D86DB3BA16}</Project>
       <Name>UniTask.DOTween</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,0 +1,2447 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c29f88e40378414ebba7a46a8adb820, type: 3}
+  m_Name: StageWaveSO
+  m_EditorClassIdentifier: 
+  stageWaveData1:
+  - idNumber: 10000001
+    stage: 1
+    wave: 1
+    poolType: 18
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 10000002
+    stage: 1
+    wave: 1
+    poolType: 19
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 10000003
+    stage: 1
+    wave: 2
+    poolType: 18
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 10000004
+    stage: 1
+    wave: 2
+    poolType: 19
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 10000005
+    stage: 1
+    wave: 3
+    poolType: 18
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 10000006
+    stage: 1
+    wave: 3
+    poolType: 19
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 10000007
+    stage: 1
+    wave: 4
+    poolType: 18
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 10000008
+    stage: 1
+    wave: 4
+    poolType: 19
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 10000009
+    stage: 1
+    wave: 5
+    poolType: 18
+    unitCount: 24
+    spawnProbability: 100
+  - idNumber: 10000010
+    stage: 1
+    wave: 5
+    poolType: 19
+    unitCount: 24
+    spawnProbability: 100
+  - idNumber: 10000011
+    stage: 2
+    wave: 1
+    poolType: 18
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 10000012
+    stage: 2
+    wave: 1
+    poolType: 19
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 10000013
+    stage: 2
+    wave: 2
+    poolType: 18
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 10000014
+    stage: 2
+    wave: 2
+    poolType: 19
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 10000015
+    stage: 2
+    wave: 3
+    poolType: 18
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 10000016
+    stage: 2
+    wave: 3
+    poolType: 19
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 10000017
+    stage: 2
+    wave: 4
+    poolType: 18
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 10000018
+    stage: 2
+    wave: 4
+    poolType: 19
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 10000019
+    stage: 2
+    wave: 5
+    poolType: 18
+    unitCount: 24
+    spawnProbability: 100
+  - idNumber: 10000020
+    stage: 2
+    wave: 5
+    poolType: 19
+    unitCount: 24
+    spawnProbability: 100
+  - idNumber: 10000021
+    stage: 3
+    wave: 1
+    poolType: 18
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 10000022
+    stage: 3
+    wave: 1
+    poolType: 19
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 10000023
+    stage: 3
+    wave: 2
+    poolType: 18
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 10000024
+    stage: 3
+    wave: 2
+    poolType: 19
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 10000025
+    stage: 3
+    wave: 3
+    poolType: 18
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 10000026
+    stage: 3
+    wave: 3
+    poolType: 19
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 10000027
+    stage: 3
+    wave: 4
+    poolType: 18
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 10000028
+    stage: 3
+    wave: 4
+    poolType: 19
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 10000029
+    stage: 3
+    wave: 5
+    poolType: 18
+    unitCount: 24
+    spawnProbability: 100
+  - idNumber: 10000030
+    stage: 3
+    wave: 5
+    poolType: 19
+    unitCount: 24
+    spawnProbability: 100
+  - idNumber: 10000031
+    stage: 4
+    wave: 1
+    poolType: 18
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 10000032
+    stage: 4
+    wave: 1
+    poolType: 19
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 10000033
+    stage: 4
+    wave: 1
+    poolType: 20
+    unitCount: 4
+    spawnProbability: 80
+  - idNumber: 10000034
+    stage: 4
+    wave: 2
+    poolType: 18
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 10000035
+    stage: 4
+    wave: 2
+    poolType: 19
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 10000036
+    stage: 4
+    wave: 2
+    poolType: 20
+    unitCount: 4
+    spawnProbability: 80
+  - idNumber: 10000037
+    stage: 4
+    wave: 3
+    poolType: 18
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 10000038
+    stage: 4
+    wave: 3
+    poolType: 19
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 10000039
+    stage: 4
+    wave: 3
+    poolType: 20
+    unitCount: 8
+    spawnProbability: 100
+  - idNumber: 10000040
+    stage: 4
+    wave: 4
+    poolType: 18
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 10000041
+    stage: 4
+    wave: 4
+    poolType: 19
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 10000042
+    stage: 4
+    wave: 4
+    poolType: 20
+    unitCount: 8
+    spawnProbability: 100
+  - idNumber: 10000043
+    stage: 4
+    wave: 5
+    poolType: 18
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 10000044
+    stage: 4
+    wave: 5
+    poolType: 19
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 10000045
+    stage: 4
+    wave: 5
+    poolType: 20
+    unitCount: 12
+    spawnProbability: 120
+  - idNumber: 10000046
+    stage: 5
+    wave: 1
+    poolType: 19
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 10000047
+    stage: 5
+    wave: 1
+    poolType: 20
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 10000048
+    stage: 5
+    wave: 1
+    poolType: 21
+    unitCount: 4
+    spawnProbability: 80
+  - idNumber: 10000049
+    stage: 5
+    wave: 2
+    poolType: 19
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 10000050
+    stage: 5
+    wave: 2
+    poolType: 20
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 10000051
+    stage: 5
+    wave: 2
+    poolType: 21
+    unitCount: 4
+    spawnProbability: 80
+  - idNumber: 10000052
+    stage: 5
+    wave: 3
+    poolType: 19
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 10000053
+    stage: 5
+    wave: 3
+    poolType: 20
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 10000054
+    stage: 5
+    wave: 3
+    poolType: 21
+    unitCount: 8
+    spawnProbability: 100
+  - idNumber: 10000055
+    stage: 5
+    wave: 4
+    poolType: 19
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 10000056
+    stage: 5
+    wave: 4
+    poolType: 20
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 10000057
+    stage: 5
+    wave: 4
+    poolType: 21
+    unitCount: 8
+    spawnProbability: 100
+  - idNumber: 10000058
+    stage: 5
+    wave: 5
+    poolType: 19
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 10000059
+    stage: 5
+    wave: 5
+    poolType: 20
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 10000060
+    stage: 5
+    wave: 5
+    poolType: 21
+    unitCount: 12
+    spawnProbability: 120
+  - idNumber: 10000061
+    stage: 6
+    wave: 1
+    poolType: 19
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 10000062
+    stage: 6
+    wave: 1
+    poolType: 20
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 10000063
+    stage: 6
+    wave: 1
+    poolType: 21
+    unitCount: 4
+    spawnProbability: 80
+  - idNumber: 10000064
+    stage: 6
+    wave: 2
+    poolType: 19
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 10000065
+    stage: 6
+    wave: 2
+    poolType: 20
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 10000066
+    stage: 6
+    wave: 2
+    poolType: 21
+    unitCount: 4
+    spawnProbability: 80
+  - idNumber: 10000067
+    stage: 6
+    wave: 3
+    poolType: 19
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 10000068
+    stage: 6
+    wave: 3
+    poolType: 20
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 10000069
+    stage: 6
+    wave: 3
+    poolType: 21
+    unitCount: 8
+    spawnProbability: 100
+  - idNumber: 10000070
+    stage: 6
+    wave: 4
+    poolType: 19
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 10000071
+    stage: 6
+    wave: 4
+    poolType: 20
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 10000072
+    stage: 6
+    wave: 4
+    poolType: 21
+    unitCount: 8
+    spawnProbability: 100
+  - idNumber: 10000073
+    stage: 6
+    wave: 5
+    poolType: 19
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 10000074
+    stage: 6
+    wave: 5
+    poolType: 20
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 10000075
+    stage: 6
+    wave: 5
+    poolType: 21
+    unitCount: 12
+    spawnProbability: 120
+  - idNumber: 10000076
+    stage: 7
+    wave: 1
+    poolType: 20
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 10000077
+    stage: 7
+    wave: 1
+    poolType: 21
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 10000078
+    stage: 7
+    wave: 1
+    poolType: 22
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 10000079
+    stage: 7
+    wave: 1
+    poolType: 23
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 10000080
+    stage: 7
+    wave: 2
+    poolType: 20
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 10000081
+    stage: 7
+    wave: 2
+    poolType: 21
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 10000082
+    stage: 7
+    wave: 2
+    poolType: 22
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 10000083
+    stage: 7
+    wave: 2
+    poolType: 23
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 10000084
+    stage: 7
+    wave: 3
+    poolType: 20
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 10000085
+    stage: 7
+    wave: 3
+    poolType: 21
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 10000086
+    stage: 7
+    wave: 3
+    poolType: 22
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 10000087
+    stage: 7
+    wave: 3
+    poolType: 23
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 10000088
+    stage: 7
+    wave: 4
+    poolType: 20
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 10000089
+    stage: 7
+    wave: 4
+    poolType: 21
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 10000090
+    stage: 7
+    wave: 4
+    poolType: 22
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 10000091
+    stage: 7
+    wave: 4
+    poolType: 23
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 10000092
+    stage: 7
+    wave: 5
+    poolType: 20
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 10000093
+    stage: 7
+    wave: 5
+    poolType: 21
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 10000094
+    stage: 7
+    wave: 5
+    poolType: 22
+    unitCount: 8
+    spawnProbability: 120
+  - idNumber: 10000095
+    stage: 7
+    wave: 5
+    poolType: 23
+    unitCount: 8
+    spawnProbability: 120
+  - idNumber: 10000096
+    stage: 8
+    wave: 1
+    poolType: 20
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 10000097
+    stage: 8
+    wave: 1
+    poolType: 21
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 10000098
+    stage: 8
+    wave: 1
+    poolType: 22
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 10000099
+    stage: 8
+    wave: 1
+    poolType: 23
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 10000100
+    stage: 8
+    wave: 2
+    poolType: 20
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 10000101
+    stage: 8
+    wave: 2
+    poolType: 21
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 10000102
+    stage: 8
+    wave: 2
+    poolType: 22
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 10000103
+    stage: 8
+    wave: 2
+    poolType: 23
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 10000104
+    stage: 8
+    wave: 3
+    poolType: 20
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 10000105
+    stage: 8
+    wave: 3
+    poolType: 21
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 10000106
+    stage: 8
+    wave: 3
+    poolType: 22
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 10000107
+    stage: 8
+    wave: 3
+    poolType: 23
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 10000108
+    stage: 8
+    wave: 4
+    poolType: 20
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 10000109
+    stage: 8
+    wave: 4
+    poolType: 21
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 10000110
+    stage: 8
+    wave: 4
+    poolType: 22
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 10000111
+    stage: 8
+    wave: 4
+    poolType: 23
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 10000112
+    stage: 8
+    wave: 5
+    poolType: 20
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 10000113
+    stage: 8
+    wave: 5
+    poolType: 21
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 10000114
+    stage: 8
+    wave: 5
+    poolType: 22
+    unitCount: 8
+    spawnProbability: 120
+  - idNumber: 10000115
+    stage: 8
+    wave: 5
+    poolType: 23
+    unitCount: 8
+    spawnProbability: 120
+  - idNumber: 10000116
+    stage: 9
+    wave: 1
+    poolType: 21
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 10000117
+    stage: 9
+    wave: 1
+    poolType: 22
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 10000118
+    stage: 9
+    wave: 1
+    poolType: 23
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 10000119
+    stage: 9
+    wave: 1
+    poolType: 24
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 10000120
+    stage: 9
+    wave: 2
+    poolType: 21
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 10000121
+    stage: 9
+    wave: 2
+    poolType: 22
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 10000122
+    stage: 9
+    wave: 2
+    poolType: 23
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 10000123
+    stage: 9
+    wave: 2
+    poolType: 24
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 10000124
+    stage: 9
+    wave: 3
+    poolType: 21
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 10000125
+    stage: 9
+    wave: 3
+    poolType: 22
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 10000126
+    stage: 9
+    wave: 3
+    poolType: 23
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 10000127
+    stage: 9
+    wave: 3
+    poolType: 24
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 10000128
+    stage: 9
+    wave: 4
+    poolType: 21
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 10000129
+    stage: 9
+    wave: 4
+    poolType: 22
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 10000130
+    stage: 9
+    wave: 4
+    poolType: 23
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 10000131
+    stage: 9
+    wave: 4
+    poolType: 24
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 10000132
+    stage: 9
+    wave: 5
+    poolType: 21
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 10000133
+    stage: 9
+    wave: 5
+    poolType: 22
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 10000134
+    stage: 9
+    wave: 5
+    poolType: 23
+    unitCount: 8
+    spawnProbability: 120
+  - idNumber: 10000135
+    stage: 9
+    wave: 5
+    poolType: 24
+    unitCount: 8
+    spawnProbability: 120
+  stageWaveData2:
+  - idNumber: 20000001
+    stage: 1
+    wave: 1
+    poolType: 29
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 20000002
+    stage: 1
+    wave: 1
+    poolType: 30
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 20000003
+    stage: 1
+    wave: 2
+    poolType: 29
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 20000004
+    stage: 1
+    wave: 2
+    poolType: 30
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 20000005
+    stage: 1
+    wave: 3
+    poolType: 29
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 20000006
+    stage: 1
+    wave: 3
+    poolType: 30
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 20000007
+    stage: 1
+    wave: 4
+    poolType: 29
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 20000008
+    stage: 1
+    wave: 4
+    poolType: 30
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 20000009
+    stage: 1
+    wave: 5
+    poolType: 29
+    unitCount: 24
+    spawnProbability: 120
+  - idNumber: 20000010
+    stage: 1
+    wave: 5
+    poolType: 30
+    unitCount: 24
+    spawnProbability: 120
+  - idNumber: 20000011
+    stage: 2
+    wave: 1
+    poolType: 29
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 20000012
+    stage: 2
+    wave: 1
+    poolType: 30
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 20000013
+    stage: 2
+    wave: 2
+    poolType: 29
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 20000014
+    stage: 2
+    wave: 2
+    poolType: 30
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 20000015
+    stage: 2
+    wave: 3
+    poolType: 29
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 20000016
+    stage: 2
+    wave: 3
+    poolType: 30
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 20000017
+    stage: 2
+    wave: 4
+    poolType: 29
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 20000018
+    stage: 2
+    wave: 4
+    poolType: 30
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 20000019
+    stage: 2
+    wave: 5
+    poolType: 29
+    unitCount: 24
+    spawnProbability: 120
+  - idNumber: 20000020
+    stage: 2
+    wave: 5
+    poolType: 30
+    unitCount: 24
+    spawnProbability: 120
+  - idNumber: 20000021
+    stage: 3
+    wave: 1
+    poolType: 29
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 20000022
+    stage: 3
+    wave: 1
+    poolType: 30
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 20000023
+    stage: 3
+    wave: 2
+    poolType: 29
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 20000024
+    stage: 3
+    wave: 2
+    poolType: 30
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 20000025
+    stage: 3
+    wave: 3
+    poolType: 29
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 20000026
+    stage: 3
+    wave: 3
+    poolType: 30
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 20000027
+    stage: 3
+    wave: 4
+    poolType: 29
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 20000028
+    stage: 3
+    wave: 4
+    poolType: 30
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 20000029
+    stage: 3
+    wave: 5
+    poolType: 29
+    unitCount: 24
+    spawnProbability: 120
+  - idNumber: 20000030
+    stage: 3
+    wave: 5
+    poolType: 30
+    unitCount: 24
+    spawnProbability: 120
+  - idNumber: 20000031
+    stage: 4
+    wave: 1
+    poolType: 29
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000032
+    stage: 4
+    wave: 1
+    poolType: 30
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000033
+    stage: 4
+    wave: 1
+    poolType: 31
+    unitCount: 4
+    spawnProbability: 80
+  - idNumber: 20000034
+    stage: 4
+    wave: 2
+    poolType: 29
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000035
+    stage: 4
+    wave: 2
+    poolType: 30
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000036
+    stage: 4
+    wave: 2
+    poolType: 31
+    unitCount: 4
+    spawnProbability: 80
+  - idNumber: 20000037
+    stage: 4
+    wave: 3
+    poolType: 29
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000038
+    stage: 4
+    wave: 3
+    poolType: 30
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000039
+    stage: 4
+    wave: 3
+    poolType: 31
+    unitCount: 8
+    spawnProbability: 100
+  - idNumber: 20000040
+    stage: 4
+    wave: 4
+    poolType: 29
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000041
+    stage: 4
+    wave: 4
+    poolType: 30
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000042
+    stage: 4
+    wave: 4
+    poolType: 31
+    unitCount: 8
+    spawnProbability: 100
+  - idNumber: 20000043
+    stage: 4
+    wave: 5
+    poolType: 29
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 20000044
+    stage: 4
+    wave: 5
+    poolType: 30
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 20000045
+    stage: 4
+    wave: 5
+    poolType: 31
+    unitCount: 12
+    spawnProbability: 120
+  - idNumber: 20000046
+    stage: 5
+    wave: 1
+    poolType: 30
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000047
+    stage: 5
+    wave: 1
+    poolType: 31
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000048
+    stage: 5
+    wave: 1
+    poolType: 32
+    unitCount: 4
+    spawnProbability: 80
+  - idNumber: 20000049
+    stage: 5
+    wave: 2
+    poolType: 30
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000050
+    stage: 5
+    wave: 2
+    poolType: 31
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000051
+    stage: 5
+    wave: 2
+    poolType: 32
+    unitCount: 4
+    spawnProbability: 80
+  - idNumber: 20000052
+    stage: 5
+    wave: 3
+    poolType: 30
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000053
+    stage: 5
+    wave: 3
+    poolType: 31
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000054
+    stage: 5
+    wave: 3
+    poolType: 32
+    unitCount: 8
+    spawnProbability: 100
+  - idNumber: 20000055
+    stage: 5
+    wave: 4
+    poolType: 30
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000056
+    stage: 5
+    wave: 4
+    poolType: 31
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000057
+    stage: 5
+    wave: 4
+    poolType: 32
+    unitCount: 8
+    spawnProbability: 100
+  - idNumber: 20000058
+    stage: 5
+    wave: 5
+    poolType: 30
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 20000059
+    stage: 5
+    wave: 5
+    poolType: 31
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 20000060
+    stage: 5
+    wave: 5
+    poolType: 32
+    unitCount: 12
+    spawnProbability: 120
+  - idNumber: 20000061
+    stage: 6
+    wave: 1
+    poolType: 30
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000062
+    stage: 6
+    wave: 1
+    poolType: 31
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000063
+    stage: 6
+    wave: 1
+    poolType: 32
+    unitCount: 4
+    spawnProbability: 80
+  - idNumber: 20000064
+    stage: 6
+    wave: 2
+    poolType: 30
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000065
+    stage: 6
+    wave: 2
+    poolType: 31
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000066
+    stage: 6
+    wave: 2
+    poolType: 32
+    unitCount: 4
+    spawnProbability: 80
+  - idNumber: 20000067
+    stage: 6
+    wave: 3
+    poolType: 30
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000068
+    stage: 6
+    wave: 3
+    poolType: 31
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000069
+    stage: 6
+    wave: 3
+    poolType: 32
+    unitCount: 8
+    spawnProbability: 100
+  - idNumber: 20000070
+    stage: 6
+    wave: 4
+    poolType: 30
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000071
+    stage: 6
+    wave: 4
+    poolType: 31
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000072
+    stage: 6
+    wave: 4
+    poolType: 32
+    unitCount: 8
+    spawnProbability: 100
+  - idNumber: 20000073
+    stage: 6
+    wave: 5
+    poolType: 30
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 20000074
+    stage: 6
+    wave: 5
+    poolType: 31
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 20000075
+    stage: 6
+    wave: 5
+    poolType: 32
+    unitCount: 12
+    spawnProbability: 120
+  - idNumber: 20000076
+    stage: 7
+    wave: 1
+    poolType: 31
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000077
+    stage: 7
+    wave: 1
+    poolType: 32
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000078
+    stage: 7
+    wave: 1
+    poolType: 33
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 20000079
+    stage: 7
+    wave: 1
+    poolType: 34
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 20000080
+    stage: 7
+    wave: 2
+    poolType: 31
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000081
+    stage: 7
+    wave: 2
+    poolType: 32
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000082
+    stage: 7
+    wave: 2
+    poolType: 33
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 20000083
+    stage: 7
+    wave: 2
+    poolType: 34
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 20000084
+    stage: 7
+    wave: 3
+    poolType: 31
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000085
+    stage: 7
+    wave: 3
+    poolType: 32
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000086
+    stage: 7
+    wave: 3
+    poolType: 33
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 20000087
+    stage: 7
+    wave: 3
+    poolType: 34
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 20000088
+    stage: 7
+    wave: 4
+    poolType: 31
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000089
+    stage: 7
+    wave: 4
+    poolType: 32
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000090
+    stage: 7
+    wave: 4
+    poolType: 33
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 20000091
+    stage: 7
+    wave: 4
+    poolType: 34
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 20000092
+    stage: 7
+    wave: 5
+    poolType: 31
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 20000093
+    stage: 7
+    wave: 5
+    poolType: 32
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 20000094
+    stage: 7
+    wave: 5
+    poolType: 33
+    unitCount: 8
+    spawnProbability: 120
+  - idNumber: 20000095
+    stage: 7
+    wave: 5
+    poolType: 34
+    unitCount: 8
+    spawnProbability: 120
+  - idNumber: 20000096
+    stage: 8
+    wave: 1
+    poolType: 31
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000097
+    stage: 8
+    wave: 1
+    poolType: 32
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000098
+    stage: 8
+    wave: 1
+    poolType: 33
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 20000099
+    stage: 8
+    wave: 1
+    poolType: 34
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 20000100
+    stage: 8
+    wave: 2
+    poolType: 31
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000101
+    stage: 8
+    wave: 2
+    poolType: 32
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000102
+    stage: 8
+    wave: 2
+    poolType: 33
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 20000103
+    stage: 8
+    wave: 2
+    poolType: 34
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 20000104
+    stage: 8
+    wave: 3
+    poolType: 31
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000105
+    stage: 8
+    wave: 3
+    poolType: 32
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000106
+    stage: 8
+    wave: 3
+    poolType: 33
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 20000107
+    stage: 8
+    wave: 3
+    poolType: 34
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 20000108
+    stage: 8
+    wave: 4
+    poolType: 31
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000109
+    stage: 8
+    wave: 4
+    poolType: 32
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000110
+    stage: 8
+    wave: 4
+    poolType: 33
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 20000111
+    stage: 8
+    wave: 4
+    poolType: 34
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 20000112
+    stage: 8
+    wave: 5
+    poolType: 31
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 20000113
+    stage: 8
+    wave: 5
+    poolType: 32
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 20000114
+    stage: 8
+    wave: 5
+    poolType: 33
+    unitCount: 8
+    spawnProbability: 120
+  - idNumber: 20000115
+    stage: 8
+    wave: 5
+    poolType: 34
+    unitCount: 8
+    spawnProbability: 120
+  - idNumber: 20000116
+    stage: 9
+    wave: 1
+    poolType: 32
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000117
+    stage: 9
+    wave: 1
+    poolType: 33
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000118
+    stage: 9
+    wave: 1
+    poolType: 34
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 20000119
+    stage: 9
+    wave: 1
+    poolType: 35
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 20000120
+    stage: 9
+    wave: 2
+    poolType: 32
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000121
+    stage: 9
+    wave: 2
+    poolType: 33
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000122
+    stage: 9
+    wave: 2
+    poolType: 34
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 20000123
+    stage: 9
+    wave: 2
+    poolType: 35
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 20000124
+    stage: 9
+    wave: 3
+    poolType: 32
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000125
+    stage: 9
+    wave: 3
+    poolType: 33
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000126
+    stage: 9
+    wave: 3
+    poolType: 34
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 20000127
+    stage: 9
+    wave: 3
+    poolType: 35
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 20000128
+    stage: 9
+    wave: 4
+    poolType: 32
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000129
+    stage: 9
+    wave: 4
+    poolType: 33
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000130
+    stage: 9
+    wave: 4
+    poolType: 34
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 20000131
+    stage: 9
+    wave: 4
+    poolType: 35
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 20000132
+    stage: 9
+    wave: 5
+    poolType: 32
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 20000133
+    stage: 9
+    wave: 5
+    poolType: 33
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 20000134
+    stage: 9
+    wave: 5
+    poolType: 34
+    unitCount: 8
+    spawnProbability: 120
+  - idNumber: 20000135
+    stage: 9
+    wave: 5
+    poolType: 35
+    unitCount: 8
+    spawnProbability: 120
+  stageWaveData3:
+  - idNumber: 30000001
+    stage: 1
+    wave: 1
+    poolType: 40
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 30000002
+    stage: 1
+    wave: 1
+    poolType: 41
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 30000003
+    stage: 1
+    wave: 2
+    poolType: 40
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 30000004
+    stage: 1
+    wave: 2
+    poolType: 41
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 30000005
+    stage: 1
+    wave: 3
+    poolType: 40
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 30000006
+    stage: 1
+    wave: 3
+    poolType: 41
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 30000007
+    stage: 1
+    wave: 4
+    poolType: 40
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 30000008
+    stage: 1
+    wave: 4
+    poolType: 41
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 30000009
+    stage: 1
+    wave: 5
+    poolType: 40
+    unitCount: 24
+    spawnProbability: 120
+  - idNumber: 30000010
+    stage: 1
+    wave: 5
+    poolType: 41
+    unitCount: 24
+    spawnProbability: 120
+  - idNumber: 30000011
+    stage: 2
+    wave: 1
+    poolType: 40
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 30000012
+    stage: 2
+    wave: 1
+    poolType: 41
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 30000013
+    stage: 2
+    wave: 2
+    poolType: 40
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 30000014
+    stage: 2
+    wave: 2
+    poolType: 41
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 30000015
+    stage: 2
+    wave: 3
+    poolType: 40
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 30000016
+    stage: 2
+    wave: 3
+    poolType: 41
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 30000017
+    stage: 2
+    wave: 4
+    poolType: 40
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 30000018
+    stage: 2
+    wave: 4
+    poolType: 41
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 30000019
+    stage: 2
+    wave: 5
+    poolType: 40
+    unitCount: 24
+    spawnProbability: 120
+  - idNumber: 30000020
+    stage: 2
+    wave: 5
+    poolType: 41
+    unitCount: 24
+    spawnProbability: 120
+  - idNumber: 30000021
+    stage: 3
+    wave: 1
+    poolType: 40
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 30000022
+    stage: 3
+    wave: 1
+    poolType: 41
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 30000023
+    stage: 3
+    wave: 2
+    poolType: 40
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 30000024
+    stage: 3
+    wave: 2
+    poolType: 41
+    unitCount: 8
+    spawnProbability: 80
+  - idNumber: 30000025
+    stage: 3
+    wave: 3
+    poolType: 40
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 30000026
+    stage: 3
+    wave: 3
+    poolType: 41
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 30000027
+    stage: 3
+    wave: 4
+    poolType: 40
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 30000028
+    stage: 3
+    wave: 4
+    poolType: 41
+    unitCount: 16
+    spawnProbability: 100
+  - idNumber: 30000029
+    stage: 3
+    wave: 5
+    poolType: 40
+    unitCount: 24
+    spawnProbability: 120
+  - idNumber: 30000030
+    stage: 3
+    wave: 5
+    poolType: 41
+    unitCount: 24
+    spawnProbability: 120
+  - idNumber: 30000031
+    stage: 4
+    wave: 1
+    poolType: 40
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 30000032
+    stage: 4
+    wave: 1
+    poolType: 41
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 30000033
+    stage: 4
+    wave: 1
+    poolType: 42
+    unitCount: 4
+    spawnProbability: 80
+  - idNumber: 30000034
+    stage: 4
+    wave: 2
+    poolType: 40
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 30000035
+    stage: 4
+    wave: 2
+    poolType: 41
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 30000036
+    stage: 4
+    wave: 2
+    poolType: 42
+    unitCount: 4
+    spawnProbability: 80
+  - idNumber: 30000037
+    stage: 4
+    wave: 3
+    poolType: 40
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 30000038
+    stage: 4
+    wave: 3
+    poolType: 41
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 30000039
+    stage: 4
+    wave: 3
+    poolType: 42
+    unitCount: 8
+    spawnProbability: 100
+  - idNumber: 30000040
+    stage: 4
+    wave: 4
+    poolType: 40
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 30000041
+    stage: 4
+    wave: 4
+    poolType: 41
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 30000042
+    stage: 4
+    wave: 4
+    poolType: 42
+    unitCount: 8
+    spawnProbability: 100
+  - idNumber: 30000043
+    stage: 4
+    wave: 5
+    poolType: 40
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 30000044
+    stage: 4
+    wave: 5
+    poolType: 41
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 30000045
+    stage: 4
+    wave: 5
+    poolType: 42
+    unitCount: 12
+    spawnProbability: 120
+  - idNumber: 30000046
+    stage: 5
+    wave: 1
+    poolType: 41
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 30000047
+    stage: 5
+    wave: 1
+    poolType: 42
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 30000048
+    stage: 5
+    wave: 1
+    poolType: 43
+    unitCount: 4
+    spawnProbability: 80
+  - idNumber: 30000049
+    stage: 5
+    wave: 2
+    poolType: 41
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 30000050
+    stage: 5
+    wave: 2
+    poolType: 42
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 30000051
+    stage: 5
+    wave: 2
+    poolType: 43
+    unitCount: 4
+    spawnProbability: 80
+  - idNumber: 30000052
+    stage: 5
+    wave: 3
+    poolType: 41
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 30000053
+    stage: 5
+    wave: 3
+    poolType: 42
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 30000054
+    stage: 5
+    wave: 3
+    poolType: 43
+    unitCount: 8
+    spawnProbability: 100
+  - idNumber: 30000055
+    stage: 5
+    wave: 4
+    poolType: 41
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 30000056
+    stage: 5
+    wave: 4
+    poolType: 42
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 30000057
+    stage: 5
+    wave: 4
+    poolType: 43
+    unitCount: 8
+    spawnProbability: 100
+  - idNumber: 30000058
+    stage: 5
+    wave: 5
+    poolType: 41
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 30000059
+    stage: 5
+    wave: 5
+    poolType: 42
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 30000060
+    stage: 5
+    wave: 5
+    poolType: 43
+    unitCount: 12
+    spawnProbability: 120
+  - idNumber: 30000061
+    stage: 6
+    wave: 1
+    poolType: 41
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 30000062
+    stage: 6
+    wave: 1
+    poolType: 42
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 30000063
+    stage: 6
+    wave: 1
+    poolType: 43
+    unitCount: 4
+    spawnProbability: 80
+  - idNumber: 30000064
+    stage: 6
+    wave: 2
+    poolType: 41
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 30000065
+    stage: 6
+    wave: 2
+    poolType: 42
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 30000066
+    stage: 6
+    wave: 2
+    poolType: 43
+    unitCount: 4
+    spawnProbability: 80
+  - idNumber: 30000067
+    stage: 6
+    wave: 3
+    poolType: 41
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 30000068
+    stage: 6
+    wave: 3
+    poolType: 42
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 30000069
+    stage: 6
+    wave: 3
+    poolType: 43
+    unitCount: 8
+    spawnProbability: 100
+  - idNumber: 30000070
+    stage: 6
+    wave: 4
+    poolType: 41
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 30000071
+    stage: 6
+    wave: 4
+    poolType: 42
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 30000072
+    stage: 6
+    wave: 4
+    poolType: 43
+    unitCount: 8
+    spawnProbability: 100
+  - idNumber: 30000073
+    stage: 6
+    wave: 5
+    poolType: 41
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 30000074
+    stage: 6
+    wave: 5
+    poolType: 42
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 30000075
+    stage: 6
+    wave: 5
+    poolType: 43
+    unitCount: 12
+    spawnProbability: 120
+  - idNumber: 30000076
+    stage: 7
+    wave: 1
+    poolType: 42
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 30000077
+    stage: 7
+    wave: 1
+    poolType: 43
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 30000078
+    stage: 7
+    wave: 1
+    poolType: 44
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 30000079
+    stage: 7
+    wave: 1
+    poolType: 45
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 30000080
+    stage: 7
+    wave: 2
+    poolType: 42
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 30000081
+    stage: 7
+    wave: 2
+    poolType: 43
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 30000082
+    stage: 7
+    wave: 2
+    poolType: 44
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 30000083
+    stage: 7
+    wave: 2
+    poolType: 45
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 30000084
+    stage: 7
+    wave: 3
+    poolType: 42
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 30000085
+    stage: 7
+    wave: 3
+    poolType: 43
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 30000086
+    stage: 7
+    wave: 3
+    poolType: 44
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 30000087
+    stage: 7
+    wave: 3
+    poolType: 45
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 30000088
+    stage: 7
+    wave: 4
+    poolType: 42
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 30000089
+    stage: 7
+    wave: 4
+    poolType: 43
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 30000090
+    stage: 7
+    wave: 4
+    poolType: 44
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 30000091
+    stage: 7
+    wave: 4
+    poolType: 45
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 30000092
+    stage: 7
+    wave: 5
+    poolType: 42
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 30000093
+    stage: 7
+    wave: 5
+    poolType: 43
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 30000094
+    stage: 7
+    wave: 5
+    poolType: 44
+    unitCount: 8
+    spawnProbability: 120
+  - idNumber: 30000095
+    stage: 7
+    wave: 5
+    poolType: 45
+    unitCount: 8
+    spawnProbability: 120
+  - idNumber: 30000096
+    stage: 8
+    wave: 1
+    poolType: 42
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 30000097
+    stage: 8
+    wave: 1
+    poolType: 43
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 30000098
+    stage: 8
+    wave: 1
+    poolType: 44
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 30000099
+    stage: 8
+    wave: 1
+    poolType: 45
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 30000100
+    stage: 8
+    wave: 2
+    poolType: 42
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 30000101
+    stage: 8
+    wave: 2
+    poolType: 43
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 30000102
+    stage: 8
+    wave: 2
+    poolType: 44
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 30000103
+    stage: 8
+    wave: 2
+    poolType: 45
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 30000104
+    stage: 8
+    wave: 3
+    poolType: 42
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 30000105
+    stage: 8
+    wave: 3
+    poolType: 43
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 30000106
+    stage: 8
+    wave: 3
+    poolType: 44
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 30000107
+    stage: 8
+    wave: 3
+    poolType: 45
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 30000108
+    stage: 8
+    wave: 4
+    poolType: 42
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 30000109
+    stage: 8
+    wave: 4
+    poolType: 43
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 30000110
+    stage: 8
+    wave: 4
+    poolType: 44
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 30000111
+    stage: 8
+    wave: 4
+    poolType: 45
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 30000112
+    stage: 8
+    wave: 5
+    poolType: 42
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 30000113
+    stage: 8
+    wave: 5
+    poolType: 43
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 30000114
+    stage: 8
+    wave: 5
+    poolType: 44
+    unitCount: 8
+    spawnProbability: 120
+  - idNumber: 30000115
+    stage: 8
+    wave: 5
+    poolType: 45
+    unitCount: 8
+    spawnProbability: 120
+  - idNumber: 30000116
+    stage: 9
+    wave: 1
+    poolType: 43
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000117
+    stage: 9
+    wave: 1
+    poolType: 44
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000118
+    stage: 9
+    wave: 1
+    poolType: 45
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 20000119
+    stage: 9
+    wave: 1
+    poolType: 46
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 20000120
+    stage: 9
+    wave: 2
+    poolType: 43
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000121
+    stage: 9
+    wave: 2
+    poolType: 44
+    unitCount: 6
+    spawnProbability: 80
+  - idNumber: 20000122
+    stage: 9
+    wave: 2
+    poolType: 45
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 20000123
+    stage: 9
+    wave: 2
+    poolType: 46
+    unitCount: 2
+    spawnProbability: 80
+  - idNumber: 20000124
+    stage: 9
+    wave: 3
+    poolType: 43
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000125
+    stage: 9
+    wave: 3
+    poolType: 44
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000126
+    stage: 9
+    wave: 3
+    poolType: 45
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 20000127
+    stage: 9
+    wave: 3
+    poolType: 46
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 20000128
+    stage: 9
+    wave: 4
+    poolType: 43
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000129
+    stage: 9
+    wave: 4
+    poolType: 44
+    unitCount: 12
+    spawnProbability: 100
+  - idNumber: 20000130
+    stage: 9
+    wave: 4
+    poolType: 45
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 20000131
+    stage: 9
+    wave: 4
+    poolType: 46
+    unitCount: 4
+    spawnProbability: 100
+  - idNumber: 20000132
+    stage: 9
+    wave: 5
+    poolType: 43
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 20000133
+    stage: 9
+    wave: 5
+    poolType: 44
+    unitCount: 16
+    spawnProbability: 120
+  - idNumber: 20000134
+    stage: 9
+    wave: 5
+    poolType: 45
+    unitCount: 8
+    spawnProbability: 120
+  - idNumber: 30000116
+    stage: 9
+    wave: 5
+    poolType: 46
+    unitCount: 8
+    spawnProbability: 120
